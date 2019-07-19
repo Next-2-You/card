@@ -16,15 +16,15 @@
 
 
 ##### 运行效果
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/1.jpg" style='align:center;width:300ps;'/>
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/2.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/3.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/4.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/5.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/6.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/7.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/8.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/9.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/10.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/11.jpg" align=center />
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/12.jpg" align=center />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/1.jpg" style='align:center;width:400ps;'/>
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/2.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/3.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/4.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/5.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/6.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/7.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/8.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/9.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/10.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/11.jpg" style='align:center;width:400ps;' />
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/12.jpg" style='align:center;width:400ps;' />
