@@ -4,8 +4,10 @@
 
 需要修改的地方：
 1.app.js
-wx.cloud.init({env: 'xxx'})
+>> wx.cloud.init({env: 'xxx'})
+
 2.address.js
+
 data: {key: 'xxx'}
 3.sharecode.js
 url: 'https://api.weixin.qq.com/tcb/batchdownloadfile?access_token=xxx',
