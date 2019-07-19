@@ -1,0 +1,15 @@
+<view bindtap='choiceStyle' data-style="1">
+  <card1 cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" headicon="{{cardInfo.headicon}}"></card1>
+</view>
+<view bindtap='choiceStyle' data-style="2">
+  <card2 cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" headicon="{{cardInfo.headicon}}"></card2>
+</view>
+<view bindtap='choiceStyle' data-style="3">
+  <card3 cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" headicon="{{cardInfo.headicon}}"></card3>
+</view>
+<view bindtap='choiceStyle' data-style="4">
+  <card4 cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" headicon="{{cardInfo.headicon}}"></card4>
+</view>
+<view bindtap='choiceStyle' data-style="5">
+  <card5 cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" headicon="{{cardInfo.headicon}}"></card5>
+</view>

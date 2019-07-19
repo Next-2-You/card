@@ -1,0 +1,212 @@
+page {
+  background-color: rgba(216, 214, 214, 0.281);
+}
+.container {
+  padding: 0;
+  justify-content: left;
+}
+.item-list {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  line-height: 80rpx;
+  font-size: 36rpx;
+  justify-content: left;
+  height: 4rem;
+  border-bottom: 1rpx solid rgb(241, 236, 236);
+  align-items: center;
+}
+
+.item-list text {
+  margin-left: 30rpx;
+}
+
+.right-value {
+  position: absolute;
+  right: 30rpx;
+}
+/* 头像 */
+.avatar {
+  width: 90rpx;
+  height: 90rpx;
+  border-radius: 50%;
+}
+
+.right-value text {
+  color: rgb(170, 168, 168);
+  font-size: 32rpx;
+}
+
+
+
+.title-text {
+  font-size: 32rpx;
+  margin-top: 30rpx;
+  margin-bottom: 10rpx;
+  width: 100%;
+  color: rgb(172, 169, 169);
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: left;
+}
+.title-text  text{
+  margin-left: 30rpx;
+}
+.item-list switch{
+  position: absolute;
+  right: 20rpx;
+}
+
+/* search */
+.searchbar-result {
+  margin-top: 0;
+  font-size: 32rpx;
+}
+
+.searchbar-result:before {
+  display: none;
+}
+
+.cell {
+  padding: 25rpx 30rpx 24rpx 70rpx;
+}
+
+.search-bar {
+  position: relative;
+  padding: 16rpx 20rpx;
+  display: flex;
+  box-sizing: border-box;
+  background-color: #efeff4;
+  border-top: 1rpx solid #d7d6dc;
+  border-bottom: 1rpx solid #d7d6dc;
+}
+
+.icon-search {
+  margin-right: 16rpx;
+  font-size: inherit;
+}
+
+.icon-search_in-box {
+  position: absolute;
+  left: 20rpx;
+  top: 22rpx;
+}
+
+.search-bar__text {
+  display: inline-block;
+  font-size: 32rpx;
+  vertical-align: middle;
+}
+
+.search-bar__form {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex: auto;
+  flex: auto;
+  border-radius: 10rpx;
+  background: #fff;
+  border: 1rpx solid #e6e6ea;
+}
+
+.search-bar__box {
+  position: relative;
+  padding-left: 60rpx;
+  padding-right: 60rpx;
+  width: 100%;
+  box-sizing: border-box;
+  z-index: 1;
+}
+
+.search-bar__input {
+  height: 70rpx;
+  line-height: 70rpx;
+  font-size: 32rpx;
+}
+
+.icon-clear {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 14rpx 16rpx;
+  font-size: 0;
+}
+
+.search-bar__label {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  border-radius: 5rpx;
+  text-align: center;
+  color: #9b9b9b;
+  background: #fff;
+  line-height: 70rpx;
+}
+
+.search-bar__cancel-btn {
+  margin-left: 20rpx;
+  line-height: 70rpx;
+  color: rgba(245,165,59,1);
+  white-space: nowrap;
+}
+
+/*表格样式*/
+.table {
+  font-family: Microsoft yahei;
+  font-size: 35rpx;
+}
+
+.tr {/*定义表格组件，设置为垂直对齐*/
+  display: flex;
+  width: 100%;
+  /* margin-left: 10rpx; */
+  background-color: #fff;
+  margin-bottom: 0;
+  justify-content: left;
+  height: 4.5rem;
+  align-items: center;
+  border-bottom: 1rpx solid rgb(241, 236, 236);
+}
+
+.td {/*表格行*/
+  width: 18% 82%;
+  justify-content: center;
+  margin-left: 10rpx;
+
+}
+.td image {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+}
+
+.company text{
+  font-size: 36rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 16rpx;
+  color: rgba(153, 153, 153, 1);
+  display: inline-block;
+  width: 510rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.name text{
+  font-size: 48rpx;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  display: inline-block;
+  width: 510rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+}
+
+/* search end */

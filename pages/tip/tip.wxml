@@ -1,0 +1,16 @@
+<!--pages/card1/card1.wxml-->
+<view class='item'>
+  <view class='item-text'>
+    <text class='text1'>您还没有名片</text>
+    <text class='text2'>快来创建名片，积累人脉吧~</text>
+  </view>
+  <view class='item-pic'>
+    <image src='/images/tip/bj.png'></image>
+  </view>
+  <view class='item-bt'>
+    <button bindtap="toCreateCard">创建名片</button>
+  </view>
+  <view class='item-foot'>
+    <image src='/images/tip/bt.png'></image>
+  </view>
+</view>

@@ -1,0 +1,106 @@
+.card1{
+  height: 415rpx;
+  width: 712rpx;
+  margin-left: 16rpx;
+  background: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.card1 .top{
+  display: flex;
+  flex-direction: row;
+}
+
+.card1 .top image{
+  height: 102rpx;
+  width: 102rpx;
+  margin-left: 120rpx;
+  margin-top: 45rpx;
+  border-radius: 50%;
+}
+
+.card1 .top view{
+  display: flex;
+  flex-direction: column;
+}
+
+.card1 .top .name{
+  font-size:36rpx;
+  font-family:SourceHanSansCN-Medium;
+  font-weight:500;
+  margin-left: 50rpx;
+  margin-top: 62rpx;
+  display: inline-block;
+  width: 380rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 10rpx;
+}
+
+.card1 .top .op{
+  font-size:22rpx;
+  font-family:SourceHanSansCN-Normal;
+  font-weight:400;
+  margin-left: 50rpx;
+  display: inline-block;
+  width: 380rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card1 .bottom{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+}
+
+.card1 .bottom text{
+  font-size:20rpx;
+  font-family:SourceHanSansCN-Normal;
+  font-weight:400;
+  margin-bottom: 5rpx;
+  display:block;
+  width: 380rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+.card1 .bottom .text1{
+  margin-top: 30rpx;
+  font-size:26rpx;
+  font-family:SourceHanSansCN-Medium;
+  font-weight:500;
+  margin-bottom: 10rpx;
+}
+
+/* 小标签 */
+
+.label {
+  height: 108rpx;
+  width: 108rpx;
+  position: absolute;
+  margin-left: 16rpx;
+  margin-top: 20rpx;
+  overflow: hidden;
+}
+
+.label .text {
+  height: 28rpx;
+  width: 130rpx;
+  margin-top: 24rpx;
+  margin-left: -27rpx;
+  background-color: black;
+  text-align: center;
+  font-size: 22rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(231, 205, 154, 1);
+  line-height: 26rpx;
+  transform: rotate(-45deg);
+  
+}

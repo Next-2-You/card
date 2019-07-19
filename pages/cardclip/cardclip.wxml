@@ -1,0 +1,71 @@
+<view class="container">
+  <view class="swiper-tab">
+    <view class="swiper-tab-item {{currentTab==0?'active1':''}}" data-current="0" bindtap="clickTab">我的收藏</view>
+    <view class="swiper-tab-item {{currentTab==1?'active2':''}}" data-current="1" bindtap="clickTab">谁看过我</view>
+
+  </view>
+  <view class="content">
+    <!-- tab1 -->
+    <view class="{{currentTab == 0 ? 'show':'hidden'}} ">
+      <scroll-view class="table ">
+        <view class="touch-item {{item.isTouchMove ? 'touch-move-active' : ''}}" bindtouchstart="touchstart" bindtouchmove="touchmove" data-index="{{index}}" wx:for="{{collection}}" wx:key="">
+          <view class="tr">
+            <view class="td" bindtap="toCollectionPage" data-cid="{{item.cardId}}">
+              <image src="{{item.headicon}}"></image>
+            </view>
+            <view class="td">
+              <view class="name">
+                <text>{{item.name}}</text>
+              </view>
+              <view class="date">{{item.date}} 我收藏了TA的名片</view>
+            </view>
+          </view>
+          <view class="del" bindtap="del" data-cid="{{item.cardId}}">
+            <image src='/images/cardclip/del.png' style="width:40rpx;height:40rpx"></image>
+          </view>
+        </view>
+        <view wx:if="{{collection==null}}" class='item'>
+          <view class='item-text'>
+            <text class='text1'>您还没有收藏名片</text>
+            <text class='text2'>快来去收藏名片，积累人脉吧~</text>
+          </view>
+          <view class='item-pic'>
+            <image src='/images/tip/bj.png'></image>
+          </view>
+          <view class='item-foot'>
+            <image src='/images/tip/bt.png'></image>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+    <!-- tab2 -->
+    <view class="{{currentTab == 1 ? 'show':'hidden'}}">
+      <scroll-view class="table">
+        <view class="tr" wx:for="{{visit}}" bindtap="toCollectionPage" wx:key="" data-cid="{{item.cardId}}">
+          <view class="td">
+            <image src="{{item.headicon}}"></image>
+          </view>
+          <view class="td">
+            <view class="name">
+              <view>
+                <text>{{item.name}}</text> </view>
+            </view>
+            <view class="date">{{item.date}}</view>
+          </view>
+        </view>
+        <view wx:if="{{visit==null}}" class='item'>
+          <view class='item-text'>
+            <text class='text1'>还没有人看过您的名片呢</text>
+            <text class='text2'>快来去把自己的名片和别人一起分享吧~</text>
+          </view>
+          <view class='item-pic'>
+            <image src='/images/tip/bj.png'></image>
+          </view>
+          <view class='item-foot'>
+            <image src='/images/tip/bt.png'></image>
+          </view>
+        </view>
+      </scroll-view>
+    </view>
+  </view>
+</view>

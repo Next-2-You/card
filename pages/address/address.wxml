@@ -1,0 +1,33 @@
+<view class="container">
+  <view class="title-text">
+    <text>定位</text>
+  </view>
+  <view class="item-list">
+    <text>{{address}}</text>
+    <image class="right-value address-icon" src="/images/editorcreatecard/address.png" bindtap="getaddress"></image>
+  </view>
+  <view class="title-text">
+    <text>地址（可编辑）</text>
+  </view>
+  <view class="item-list">
+    <input placeholder="请输入地址" value="{{input_address}}"></input>
+    <view class="right-value">
+      <text class="right-value"></text>
+    </view>
+  </view>
+  <!-- 门牌号 -->
+  <!-- <view class="title-text" >
+    <text>门牌号</text>
+  </view>
+  <view class="item-list">
+    
+    <input placeholder="请输入门牌号" bindinput="doorNumber">{{address}}</input>
+    <view class="right-value">
+      <text></text>
+    </view>
+  </view> -->
+   <button class='btn'  bindtap="addressvalue">
+  
+    <text>确 定</text>
+  </button>
+</view>

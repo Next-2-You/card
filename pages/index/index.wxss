@@ -1,0 +1,214 @@
+/**index.wxss**/
+/* pages/card4/card4.wxss */
+.item{
+  height: 1160rpx;
+  width: 750rpx;
+  background-color: #F9F9F9;
+  /* border: 1px solid black; */
+}
+
+.top{
+  width: 750rpx;
+  height: 400rpx;background-color: #fff;
+}
+
+.card{
+  border: 1px solid black;
+  height: 400rpx;
+  width: 700rpx;
+  margin-top: 43rpx;
+  margin-left: 25rpx;
+  
+}
+
+.function{
+  height: 110rpx;
+  width: 750rpx;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  margin-bottom: 20rpx;
+}
+
+.function .bt .image1{
+  display: block;
+  height: 34rpx;
+  width: 26rpx;
+}
+
+.function .bt .image2{
+  height: 36rpx;
+  width: 36rpx;
+}
+
+.function .bt-3 .image3{
+  height: 34rpx;
+  width: 40rpx;
+}
+
+.function .bt-3 .image4{
+  height: 20rpx;
+  width: 12rpx;
+}
+
+.function .bt::after{
+  border: 0;
+}
+
+
+.function .bt {
+  height: 40rpx;
+  width: 210rpx;
+  position:relative;
+  margin-top: 34rpx;
+  margin-left: 42rpx;
+  padding-left:0;
+  padding-right:0;
+  box-sizing:border-box;
+  font-size:24rpx;
+  text-align:left;
+  text-decoration:none;
+  line-height:45rpx;
+  border-radius:5px;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#333333;
+  background-color:#fff;
+  font-family: SourceHanSansCN-Regular;
+  display: flex;
+  flex-direction: row;
+}
+
+.function .bt-3::after{
+  border: 0;
+}
+
+
+.function .bt-3 {
+  height: 40rpx;
+  width: 302rpx;
+  position:relative;
+  margin-top: 34rpx;
+  margin-left: 42rpx;
+  padding-left:0;
+  padding-right:0;
+  box-sizing:border-box;
+  font-size:24rpx;
+  text-align:left;
+  text-decoration:none;
+  line-height:45rpx;
+  border-radius:5px;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#333333;
+  background-color:#fff;
+  font-family: SourceHanSansCN-Regular;
+  display: flex;
+  flex-direction: row;
+}
+
+.function .text1{
+  margin-left: 10rpx;
+  font-size: 26rpx;
+  color: #B6B6B6;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: Regular;
+}
+
+.function .text2{
+  margin-left: 10rpx;
+  font-size: 26rpx;
+  color: #1082FF;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: Regular;
+}
+
+.nav{
+  height: 440rpx;
+  width: 746rpx;
+  /* border: 1px solid black; */
+}
+
+.nav button::after{
+  border: 0;
+}
+
+.nav button {
+  height: 110rpx;
+  position:relative;
+  display:block;
+  margin-left:0;
+  margin-right:0;
+  padding-top: 25rpx;
+  padding-left:43rpx;
+  padding-right:0rpx;
+  box-sizing:border-box;
+  font-size:28rpx;
+  text-align:left;
+  text-decoration:none;
+  line-height:2.55555556;
+  border-radius:0px;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#000000;
+  background-color:#fff;
+}
+
+.nav button image{
+  height: 26rpx;
+  width: 26rpx;
+}
+
+.nav button text{
+  font-size: 28rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: Regular;
+  color: #666666;
+  display: inline-block;
+  margin-left: 28rpx;
+}
+
+.bbt::after{
+  border: 0;
+}
+
+.bbt{
+  height: 88rpx;
+  width: 400rpx;
+  position:relative;
+  display:block;
+  margin-top: 50rpx;
+  margin-left:auto;
+  margin-right:auto;
+  padding-left:0;
+  padding-right:0;
+  box-sizing:border-box;
+  font-size:18px;
+  text-align:center;
+  text-decoration:none;
+  line-height:80rpx;
+  box-shadow:0px 0px 30px 0px rgba(183, 20, 113, 0.35);
+  border-radius:44px;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#000000;
+  background-color:#FCAA3D;
+
+}
+
+.bbt image{
+  height: 25rpx;
+  width: 25rpx;
+  display: inline-block;
+  margin-top: 1rpx;
+}
+
+.bbt text{
+  font-size: 28rpx;
+  color: #FFFFFF;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  display: inline-block;
+  margin-left: 12rpx;
+}

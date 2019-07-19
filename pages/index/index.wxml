@@ -1,0 +1,60 @@
+<!--pages/card4/card4.wxml-->
+<view class='item'>
+  <view class='top'>
+    <view wx:if="{{cardInfo.cardType==1}}">
+      <card1 cardInfo="{{cardInfo}}" headicon="{{cardInfo.headicon}}"></card1>
+    </view>
+    <view wx:elif="{{cardInfo.cardType==2}}">
+      <card2 cardInfo="{{cardInfo}}" headicon="{{cardInfo.headicon}}"></card2>
+    </view>
+    <view wx:elif="{{cardInfo.cardType==3}}">
+      <card3 cardInfo="{{cardInfo}}" headicon="{{cardInfo.headicon}}"></card3>
+    </view>
+    <view wx:elif="{{cardInfo.cardType==4}}">
+      <card4 cardInfo="{{cardInfo}}" headicon="{{cardInfo.headicon}}"></card4>
+    </view>
+    <view wx:else>
+    <card5 cardInfo="{{cardInfo}}" headicon="{{cardInfo.headicon}}"></card5>
+    </view>
+
+  </view>
+  <view class='function'>
+    <button class='bt'>
+      <image class='image1' src='/images/index/rq.png'></image>
+      <text class='text1' decode="{{true}}">人气&emsp;{{popularityNum}}</text>
+    </button>
+    <button class='bt'>
+      <image class='image2' src='/images/index/sc.png'></image>
+      <text class='text1' decode="{{true}}">收藏&emsp;{{collectionNum}}</text>
+    </button>
+    <button class='bt-3' bindtap="toCardClip">
+      <image class='image3' src='/images/index/wd.png'></image>
+      <text class='text2'>我的名片夹 ></text>
+    </button>
+
+  </view>
+  <view class='nav'>
+    <button bindtap="toEditCard">
+    <image class='image2' src='/images/index/bj.png'></image>
+    <text>编辑名片</text>
+    </button>
+    <button bindtap="toCardStyle">
+    <image class='image2' src='/images/index/mpys.png'></image>
+    <text>名片样式</text>
+    </button>
+    <button bindtap="toCardCode">
+    <image class='image2' src='/images/index/ewm.png'></image>
+    <text>名片码</text>
+    </button>
+    <button bindtap="toSetUpPage" data-cid="{{cardInfo._id}}">
+    <image class='image2' src='/images/index/self.png'></image>
+    <text>个人中心</text>
+    </button>
+  </view>
+
+  <button class='bbt'  open-type="share">
+    <image src='/images/index/fx.png'></image>
+    <text>分享名片</text>
+  </button>
+
+</view>

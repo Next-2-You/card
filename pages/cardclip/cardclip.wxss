@@ -1,0 +1,229 @@
+page {
+  margin: 0;
+  padding: 0;
+  width: 750rpx;
+  height: 1200rpx;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 750rpx;
+}
+
+.swiper-tab {
+  position: absolute;
+  top: 30rpx;
+  left: 28rpx;
+  line-height: 76rpx;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  color: #ccc;
+  font-size: 32rpx;
+  width: 690rpx;
+  height: 76rpx;
+  background: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(245, 165, 59, 1);
+  border-radius: 35rpx;
+}
+
+.swiper-tab-item {
+  width: 50%;
+  color: #434343;
+  text-align: center;
+}
+
+.active1 {
+  background-color: rgba(245, 165, 59, 1);
+  /* border-bottom: 4rpx solid #F65959; */
+  font-size: 32rpx;
+  font-weight: bold;
+  border-radius: 35rpx 0 0 35rpx;
+}
+
+.active2 {
+  background-color: rgba(245, 165, 59, 1);
+  /* border-bottom: 4rpx solid #F65959; */
+  font-size: 32rpx;
+  font-weight: bold;
+  border-radius: 0 35rpx 35rpx 0;
+}
+
+.juzhong {
+  margin: 0 auto;
+}
+
+.domain {
+  background-color: #fff;
+  height: 100%;
+  margin: 0 10px;
+}
+
+.show {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.content {
+  width: 100%;
+  /* height:281px; */
+  background: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 12%;
+  /* left: 10rpx; */
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.content .none {
+  color: rgba(156, 162, 187, 1);
+  font-family: 宋体;
+  font-size: 40rpx;
+  margin: auto auto;
+  background: rgba(249, 249, 249, 1);
+  text-align: center;
+  display: block;
+}
+
+.touch-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/*表格样式*/
+
+.table {
+  font-family: Microsoft yahei;
+  font-size: 35rpx;
+}
+
+.tr {
+  /*定义表格组件，设置为垂直对齐*/
+  display: flex;
+  width: 100%;
+  /* margin-left: 10rpx; */
+  margin-bottom: 0;
+  justify-content: left;
+  height: 4.5rem;
+  align-items: center;
+  border-bottom: 1rpx solid rgb(241, 236, 236);
+}
+
+
+.td {
+  /*表格行*/
+  width: 18% 82%;
+  justify-content: center;
+  margin-left: 10rpx;
+}
+
+.td image {
+  width: 110rpx;
+  height: 110rpx;
+  border-radius: 50%;
+}
+
+.date {
+  font-size: 36rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 16rpx;
+  color: rgba(153, 153, 153, 1);
+}
+
+.name {
+  font-size: 48rpx;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  color: rgba(51, 51, 51, 1);
+  display: inline-block;
+  width: 550rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+.tr{
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  -webkit-transform: translateX(100rpx);
+  transform: translateX(100rpx);
+  margin-left: -100rpx;
+}
+
+.del {
+  background-color: red;
+  width: 100rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  -webkit-transform: translateX(100rpx);
+  transform: translateX(100rpx);
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+.touch-move-active .tr, .touch-move-active .del {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+}
+/* 没收藏没看过样式 */
+
+.item{
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  /* border: 1rpx solid black; */
+}
+
+
+
+.item-text{
+  margin-top: 51rpx;
+  text-align: center;
+  
+}
+
+.item-text .text1{
+  color:#FCAA3D;
+  font-size: 43rpx;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: Medium;
+  display: block;
+  /* margin-top: 10rpx; */
+}
+
+.item-text .text2{
+  color: #A9A9A9;
+  font-size: 34rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: Regular;
+  display: inline-block;
+}
+
+.item .item-pic image{
+  display: block;
+  height: 487rpx;
+  width: 633rpx;
+  margin-top: 212rpx;
+  margin-left: 60rpx;
+}
+
+.item .item-foot image{
+  margin-top: 137rpx;
+  width: 750rpx;
+  height: 67rpx;
+  
+}

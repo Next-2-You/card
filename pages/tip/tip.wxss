@@ -1,0 +1,77 @@
+/* pages/tip/tip.wxss */
+.item{
+  display: flex;
+  flex-direction: column;
+  width: 750rpx;
+  height: 1200rpx;
+  /* border: 1rpx solid black; */
+}
+
+.item-text{
+  margin-top: 50rpx;
+  text-align: center;
+  
+}
+
+.item-text .text1{
+  color:#FCAA3D;
+  font-size: 43rpx;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: Medium;
+  display: block;
+}
+
+.item-text .text2{
+  color: #A9A9A9;
+  font-size: 34rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: Regular;
+  display: inline-block;
+}
+
+.item .item-pic image{
+  display: block;
+  height: 489rpx;
+  width: 633rpx;
+  margin-top: 142rpx;
+  margin-left: 60rpx;
+}
+
+.item .item-bt button::after{
+  border: 0;
+}
+
+.item .item-bt button{
+  height: 88rpx;
+  width: 400rpx;  
+  position:relative;
+  display:block;
+  margin-top: 138rpx;
+  margin-left: 176rpx;
+  padding-left:0;
+  padding-right:0;
+  box-sizing:border-box;
+  font-size:32rpx;
+  text-align:center;
+  text-decoration:none;
+  line-height:80rpx;
+  border-radius: 44rpx;
+  box-shadow:0px 0px 30px 0px rgba(183, 20, 113, 0.35);
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#fff;
+  background-color:#FCAA3D;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: bold;
+}
+
+
+.item .item-foot {
+  margin-top: 137rpx;
+
+}
+
+.item .item-foot image{
+  width: 750rpx;
+  height: 66rpx;
+}

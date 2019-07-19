@@ -1,0 +1,120 @@
+/*canvas宽高*/
+canvas{
+  /* position: absolute;
+  top: 58rpx;
+  left:74rpx; */
+   z-index: 2000; 
+  width: 600rpx;
+  height: 982rpx;
+   position: fixed;
+  left: 75rpx;
+  top: 40%;
+  margin-top: -435rpx;
+ 
+}
+/*控制canvas显示和隐藏 top值要大 要保证能溢出到屏幕外面*/
+.topScroll{
+  position: absolute;
+  top: -2000rpx;
+  z-index: -9999;
+ 
+}
+
+
+.item-contain{
+  width: 750rpx;
+  height:1200rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background:rgba(249,249,249,1);
+}
+.item-body{
+  width: 634rpx;
+  height: 975rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 0rpx solid red;
+  align-items: center;
+  margin-bottom: 57rpx;
+  margin-left: 58rpx;
+}
+.item-body-head image{
+  width: 140rpx;
+  height: 140rpx;
+  box-shadow: 3rpx 3rpx 5rpx 5rpx rgb(235, 233, 230);
+  border-radius: 50%;
+}
+.item-body-name{
+  margin-top: 26rpx;
+  font-size:48rpx;
+  font-family:SourceHanSansCN-Medium;
+  font-weight:500rpx;
+  color:rgba(51,51,51,1);
+  display: inline-block;
+  width: 450rpx;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.item-body-identity{
+  margin-top: 24rpx;
+  font-size:36rpx;
+  font-family:SourceHanSansCN-Normal;
+  font-weight:400rpx;
+  color:rgba(153,153,153,1);
+}
+.item-body-QRcode{
+  margin-top: 85rpx;
+}
+.item-body-QRcode image{
+  width: 308rpx;
+  height: 308rpx;
+}
+.item-body-tops1{
+  margin-top: 105rpx;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400rpx;
+  color:rgba(102,102,102,1);
+  text-align: center;
+}
+/* .item-body-tops2{
+  margin-top: 6rpx;
+  font-size:32rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400rpx;
+  color:rgba(102,102,102,1);
+} */
+.item-buttom{
+  width:400rpx;
+  height:88rpx;
+  background-color: #FCAA3D;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.item-buttom-icon{
+  margin-right: 6rpx;
+}
+.item-buttom-icon image{
+  width: 25rpx;
+  height: 28rpx;
+}
+
+.item-buttom-download text{
+  width:139rpx;
+  height:27rpx;
+  font-size:28rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400rpx;
+  color:rgba(255,255,255,1);
+}
+.item-buttom-button{
+  align-content: center;
+  padding-left:0px;
+  padding-right:0px;
+  border-radius:44rpx;
+}

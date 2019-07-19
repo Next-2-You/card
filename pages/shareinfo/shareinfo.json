@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "card1": "/pages/cardstyle/cardstyle1/cardstyle1",
+    "card2": "/pages/cardstyle/cardstyle2/cardstyle2"
+  }
+}

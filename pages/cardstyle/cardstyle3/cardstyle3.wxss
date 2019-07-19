@@ -1,0 +1,111 @@
+.card3{
+  height: 415rpx;
+  width: 712rpx;
+  margin-left: 16rpx;
+  background: no-repeat;
+  background-size: 100%;
+}
+
+.card3 .ct-head{
+  display: flex;
+  flex-direction: column;
+}
+
+.card3 .ct-head .ct-text1{
+  display: block;
+  width: 450rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size:45rpx;
+  font-family:SourceHanSansCN-Medium;
+  font-weight:500;
+  margin: 71rpx 0 0 58rpx;
+}
+
+.card3 .ct-head .ct-text2{
+  display: block;
+  width: 450rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size:24rpx;
+  font-family:SourceHanSansCN-Normal;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+  margin: 14rpx 0 0 58rpx;
+}
+
+.card3 .ct-head image{
+  height: 120rpx;
+  width: 120rpx;
+  position: absolute;
+  margin: 53rpx 53rpx 0 546rpx;
+  border-radius: 50%;
+}
+
+.card3 .info{
+  display: flex;
+  flex-direction: row;
+  height: 235rpx;
+  width: 750rpx;
+
+}
+
+.card3 .info view{
+  margin-top: 100rpx;
+  margin-left: 30rpx;
+  margin-right: -15rpx;
+  width: 150rpx;
+  height: 105rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.card3 .info image{
+  height: 27rpx;
+  width: 27rpx;
+}
+
+.card3 .info text{
+  overflow: hidden;
+  display: inline-block;
+  width: 150rpx;
+  height: 75rpx;
+  white-space: normal;
+  word-wrap:break-word;
+  text-align: center;
+  font-size:14rpx;
+  font-family:SourceHanSansCN-Normal;
+  font-weight:400;
+  color:rgba(102,102,102,1);
+}
+
+/* 小标签 */
+
+.label {
+  height: 108rpx;
+  width: 108rpx;
+  position: absolute;
+  margin-left: 16rpx;
+  margin-top: 20rpx;
+  overflow: hidden;
+}
+
+.label .text {
+  height: 28rpx;
+  width: 130rpx;
+  margin-top: 24rpx;
+  margin-left: -27rpx;
+  background-color: black;
+  text-align: center;
+  font-size: 22rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(231, 205, 154, 1);
+  line-height: 26rpx;
+  transform: rotate(-45deg);
+  
+}

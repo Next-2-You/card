@@ -1,0 +1,29 @@
+<view class='card1' style='background-image: url("https://6465-dev-7f01e-1259628828.tcb.qcloud.la/bj-1.png"'>
+<view class='label' wx:if="{{cardInfo.cardType==1&&isChoiceStylePage}}">
+      <view class='text'>当前样式</view>
+    </view>
+  <view class='top'>
+    <view>
+      <text class='name'>{{cardInfo.name}}</text>
+      <text class='op'>{{cardInfo.jobInfo}}</text>
+    </view>
+    <view bindtap="uploadHeadicon">
+    <image src="{{headicon}}"></image>
+    </view>
+    
+  </view>
+
+  <view class='bottom'>
+    <text class='text1'>{{cardInfo.company}}</text>
+    <view>
+      <text>地址：{{cardInfo.address}}</text>
+      <text>手机：{{cardInfo.mobilephone}}</text>
+      <text>邮箱：{{cardInfo.email}}</text>
+      <text>官网：{{cardInfo.url}}</text>
+
+    </view>
+
+  </view>
+
+
+</view>

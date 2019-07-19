@@ -1,0 +1,88 @@
+<!--pages/editcard/editcard.wxml-->
+<view class='set'>
+  <view class='card'>
+    <view wx:if="{{cardType==1}}">
+      <card1 bind:setHeadiconData="setHeadiconData" cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" isBindTap="{{uploadHeadicon}}" headicon="{{headicon}}" isUpload="{{true}}"></card1>
+    </view>
+    <view wx:elif="{{cardType==2}}">
+      <card2 bind:setHeadiconData="setHeadiconData" cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" isBindTap="{{uploadHeadicon}}" headicon="{{headicon}}" isUpload="{{true}}"></card2>
+    </view>
+    <view wx:elif="{{cardInfo.cardType==3}}">
+      <card3 bind:setHeadiconData="setHeadiconData" cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" isBindTap="{{uploadHeadicon}}" headicon="{{headicon}}" isUpload="{{true}}"></card3>
+    </view>
+    <view wx:elif="{{cardInfo.cardType==4}}">
+      <card4 bind:setHeadiconData="setHeadiconData" cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" isBindTap="{{uploadHeadicon}}" headicon="{{headicon}}" isUpload="{{true}}"></card4>
+    </view>
+    <view wx:else>
+      <card5 bind:setHeadiconData="setHeadiconData" cardInfo="{{cardInfo}}" isChoiceStylePage="{{true}}" isBindTap="{{uploadHeadicon}}" headicon="{{headicon}}" isUpload="{{true}}"></card5>
+    </view>
+  </view>
+  <view class='text'>
+    <text class='text1'>您的资料</text>
+    <text class='text2'>(点击头像可更换图片)</text>
+  </view>
+  <view class='information'>
+    <form bindsubmit="formSubmit">
+      <view>
+        <text decode="{{true}}">姓&emsp;&emsp;名</text>
+        <text class="redStars">*</text>
+        <input bindinput="nameInput" focus="{{nameFocus}}" placeholder-class="{{nameClass}}" name="name" type='text' placeholder="请填写您的真实姓名" value="{{cardInfo.name}}" bindfocus="nameFocus" bindblur='nameBlur'></input>
+      </view>
+      <view>
+        <text decode="{{true}}">手&emsp;&emsp;机<text class="redStars">*</text></text>
+        <input focus="{{phoneFocus}}" bindinput="mobilePhoneInput" style='color:{{mobilephoneStyle}};' placeholder-class="{{mobilephoneClass}}" name="mobilephone" type='number' placeholder="请填写您的手机" value="{{cardInfo.mobilephone}}" bindfocus="mobilePhoneFocus"
+          bindblur='mobilePhoneBlur'></input>
+      </view>
+      <view>
+        <text decode="{{true}}">职&emsp;&emsp;位</text>
+        <input bindinput="jobInfoInput" name="jobInfo" type='text' placeholder="请填写您的职位信息" value="{{cardInfo.jobInfo}}"></input>
+      </view>
+      <view>
+        <text>单位名称</text>
+        <input bindinput="companyInput" name="company" type='text' placeholder="请填写您的单位名称" value="{{cardInfo.company}}"></input>
+      </view>
+      <!-- <view>
+        <text>办公地点</text>
+        <input bindinput="addressInput" name="address" type='text' placeholder="请输入您的公司地址" value="{{cardInfo.address}}"></input>
+      </view> -->
+      <!-- <navigator url='/pages/address/address?address={{cardInfo.address}}' class="list-nav" hover-class="listl_active">
+      <view>
+      <text>办公地点</text>
+        <input name="address" value="{{cardInfo.address}}" placeholder="点击选择"></input>
+      </view>
+      <image class="nav-icon" src="/images/selfcenter/direction.png"></image>
+      </navigator> -->
+      <navigator bindtap="toGetAddressPage"  class="list-nav" hover-class="listl_active">
+      <view>
+      <text>办公地点</text>
+        <input name="address" value="{{cardInfo.address}}" placeholder="点击选择" ></input>
+      </view>
+      <image class="nav-icon" src="/images/selfcenter/direction.png"></image>
+      </navigator>
+      <view>
+        <text>主要业务</text>
+        <input name="business" type='text' placeholder="请简单介绍您的业务" value="{{cardInfo.business}}" bindinput="businessInput"></input>
+      </view>
+      <view>
+        <text>固定电话</text>
+        <input name="telephone" type='text' placeholder="请填写固定电话" value="{{cardInfo.telephone}}" bindinput="telephoneInput"></input>
+      </view>
+      <view>
+        <text decode="{{true}}">官&emsp;&emsp;网</text>
+        <input bindinput="urlInput" name="url" type='text' placeholder="请填写公司官网" value="{{cardInfo.url}}"></input>
+      </view>
+      <view>
+        <text decode="{{true}}">邮&emsp;&emsp;箱</text>
+        <input bindinput="emailInput" name="email" type='text' placeholder="请填写您的电子邮箱" value="{{cardInfo.email}}"></input>
+      </view>
+      <view>
+        <text decode="{{true}}">微&emsp;&emsp;信</text>
+        <input name="weixin" type='text' placeholder="请填写您的微信号" value="{{cardInfo.weixin}}" bindinput="weixinInput"></input>
+      </view>
+      <view class='bt'>
+        <button form-type="submit">保存</button>
+      </view>
+    </form>
+  </view>
+
+</view>

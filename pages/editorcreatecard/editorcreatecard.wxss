@@ -1,0 +1,226 @@
+/* pages/card2/card2.wxss */
+.set{
+  height: 100%;
+  width: 750rpx;
+  margin: 0 auto;
+  background-color: #F9F9F9;
+}
+
+/* .set .card{
+  border: 1px solid black;
+} */
+
+.set .card .bg image{
+  height: 400rpx;
+  width: 700rpx; 
+  display: block;
+  margin-left: 25rpx;
+}
+
+.set .card .content{
+  color: white;
+  height: 400rpx;
+  width: 588rpx;
+  margin: 0 81rpx;
+  border: 1px solid rgba(0, 0, 0, 0);
+  position: absolute;
+  margin-top: -400rpx;
+}
+
+.set .card .content .ct-head{
+  height: 102rpx;
+  width: 100%;
+  margin-top: 44rpx;
+  margin-bottom: 34rpx;
+  
+}
+.ct-head image{
+  border-radius: 50%;
+}
+
+.set .card .content image{
+  height: 102rpx;
+  width: 102rpx;
+  float: right;
+  
+}
+
+.set .card .content .ct-text1{
+  font-size: 44rpx;
+  font-weight: Medium;
+  font-family: SourceHanSansCN-Medium;
+}
+
+.set .card .content .ct-text2{
+  margin-left: 30rpx;
+  font-size: 24rpx;
+  font-weight: Regular;
+  font-family: SourceHanSansCN-Regular;
+}
+
+.set .card .content .ct-foot{
+  display: flex;
+  flex-direction: column;
+}
+
+.set .card .content .ct-foot-text1{
+  font-size: 30rpx;
+  font-weight: Medium;
+  font-family: SourceHanSansCN-Medium;
+  margin-bottom: 6rpx;
+}
+
+.set .card .content .ct-foot-text2{
+  font-size: 24rpx;
+  font-weight: Regular;
+  font-family: SourceHanSansCN-Regular;
+}
+
+.set .text{
+  margin: 30rpx 0;
+  margin-left: 25px;
+  
+}
+
+.set .text1{
+  font-size: 30rpx;
+  color: #666666;
+  font-family: SourceHanSansCN-Bold;
+  font-weight: bold;
+  margin-right: 20rpx;
+                        
+}
+
+.set .text2{
+  font-size: 22rpx;
+  color: #999999;
+  font-weight: Regular;
+  font-family: SourceHanSansCN-Regular;
+                        
+}
+
+.set .information{
+    background-color: #fff;
+
+}
+.set .information view{
+
+  width: 692rpx;
+  height: 120rpx;
+  border-bottom: 1px solid rgba(238, 238, 238, 1);
+  margin: 0 auto;
+}
+
+.set .information text{
+  margin-left: 20rpx;
+  font-size: 28rpx;
+  line-height: 125rpx;
+  font-family: SourceHanSansCN-Regular;
+  color: #333333;
+  font-weight: Regular;
+}
+
+
+
+.set .information input {
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  padding-left: 10rpx;
+  vertical-align: middle;
+  width: 470rpx;
+  cursor:auto;
+  display:inline-block;
+  height:1.4rem;
+  /* text-overflow:clip; */
+  overflow:hidden;
+  white-space:nowrap;
+  font-family:SourceHanSansCN-Regular;
+  min-height:1.4rem;
+  color: #666666;
+  font-size: 28rpx;
+ 
+  text-overflow: ellipsis;
+  /* border: 1px solid black; */
+}
+
+.redInput{
+  color: red; 
+}
+.set .information .redStars{
+  color: red;
+  position: absolute;
+  margin: 12rpx 0 0 11rpx;
+}
+.set .bt button{
+ height: 88rpx;
+  width: 400rpx;
+  
+  position:relative;
+  display:block;
+  margin: 20rpx auto;
+  padding-left:0;
+  padding-right:0;
+  box-sizing:border-box;
+  font-size:32rpx;
+  text-align:center;
+  text-decoration:none;
+  line-height:90rpx;
+  border-radius:50rpx;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#fff;
+  background-color:#FCAA3D;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: bold;
+}
+
+/* 办公地点 */
+.private {
+  width: 750rpx;
+  height: 80rpx;
+  margin-top: 30rpx;
+  background-color: #fff;
+  line-height: 80rpx;
+  align-items: left;
+  border-bottom: 1rpx solid rgb(241, 236, 236);
+  /* align-items: center; *//* margin-top: 0; */
+}
+
+.list-nav {
+  width: 100%;
+  position: relative;
+  /* display: flex;
+  flex-direction: row;
+  justify-content: left; */
+  color: inherit;
+}
+
+.list_active {
+  background-color: #1a0202;
+}
+
+.private-text {
+  font-size: 34rpx;
+  margin-left: 30rpx;
+}
+
+.nav-icon {
+  height: 36rpx;
+  width: 36rpx;
+  text-align: right;
+  color: rgb(26, 2, 2);
+  right: 20rpx;
+  position: absolute;
+  top: 50rpx;
+}
+ .set .list-nav view{
+
+width: 692rpx;
+height: 120rpx;
+border-bottom: 1px solid rgba(238, 238, 238, 1);
+margin: 0 auto;
+
+} 
+
+

@@ -1,0 +1,25 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/empower/empower",
+    "pages/index/index",
+    "pages/shareinfo/shareinfo",
+    "pages/cardstyle/choicestyle/choicestyle",
+    "pages/logs/logs",
+    "pages/cardclip/cardclip",
+    "pages/tip/tip",
+    "pages/editorcreatecard/editorcreatecard",
+    "pages/sharecode/sharecode",
+    "pages/selfcenter/selfcenter",
+    "pages/cardstyle/cardstyle4/cardstyle4",
+    "pages/cardstyle/cardstyle5/cardstyle5",
+    "pages/address/address"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "好嗨哟名片",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

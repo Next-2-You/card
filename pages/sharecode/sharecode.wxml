@@ -1,0 +1,44 @@
+
+  <!--canvas不能用display:block和none 设置样式opacity为0真机无效 因此设置top位置在屏幕外面即可-->
+<canvas canvas-id="myCanvas" class="{{isOpacity == true?'topScroll':''}}" ></canvas>
+<view class='item-contain'>
+
+  <view class='item-body' style="background-image:url(/images/sharecode/bg.png);background-size:100%;background-repeat:no-repeat;">
+    <view class='item-body-head'>
+      <image src='{{cardInfo.headicon}}'></image> 
+    </view>
+    <view class='item-body-name'>
+      <text>{{cardInfo.name}}</text>
+    </view>
+    <view class='item-body-identity'>
+      <text>{{cardInfo.jobInfo}}</text>
+    </view>
+    <view class='item-body-QRcode'  >
+      <image src="data:image/png;base64,{{QRcode}}" bindlongtap="codetap" data-type="code"></image>
+    </view>
+    <view class='item-body-tops1'>
+      <view>扫一扫上面的二维码图案</view>
+      <view>收藏我的名片</view>      
+    </view>
+  
+  </view>
+  
+  <button class='item-buttom-button'  bindtap="showImage">
+    <view class='item-buttom'>
+      <view class='item-buttom-icon'>
+        <image src='/images/sharecode/save.png'></image>
+      </view>
+      <view class='item-buttom-download' >
+      <text>保存到手机</text>
+      </view>
+      <!--  wx:if="{{!isAuthSavePhoto}}" 
+      <view class='item-buttom-download' wx:else bind:tap="showModal">
+      <text>保存到手机</text>
+      </view> -->
+    </view> 
+  </button>
+
+
+
+
+</view>

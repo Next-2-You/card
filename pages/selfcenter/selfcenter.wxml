@@ -1,0 +1,60 @@
+<!-- 个人信息 -->
+<view class="container">
+  <view class="title-text"><text>账户信息</text></view>
+  <view class="item-list">
+    <text>头像</text>
+    <image class="right-value avatar" src="{{userInfo.avatarUrl}}"></image>
+  </view>
+  <view class="item-list">
+    <text>昵称</text>
+    <view class="right-value">
+      <text>{{userInfo.nickName}}</text>
+    </view>
+  </view>
+  <!-- 隐私设置 -->
+  <view class="title-text"><text>隐私设置</text></view>
+ 
+    <view class="item-list">
+      <text>允许别人搜索到我的名片</text>
+      <switch bindchange="changeSet" color="rgba(245,165,59,1)" checked="{{cardInfo.privacy}}"/>
+    </view>
+  </view>
+  
+  <!-- 搜索 -->
+  <view class="search-bar">
+    <view class="search-bar__form">
+      <view class="search-bar__box">
+        <icon class="icon-search_in-box" type="search" size="28rpx"></icon>
+        <input type="text" class="search-bar__input" placeholder="搜索" value="{{inputVal}}" focus="{{inputShowed}}" bindinput="inputTyping" />
+        <view class="icon-clear" wx:if="{{inputVal.length > 0}}" bindtap="clearInput">
+          <icon type="clear" size="32rpx"></icon>
+        </view>
+      </view>
+      <label class="search-bar__label" hidden="{{inputShowed}}" bindtap="showInput">
+        <icon class="icon-search" type="search" size="14"></icon>
+        <view class="search-bar__text">搜索</view>
+      </label>
+    </view>
+    <view class="search-bar__cancel-btn" hidden="{{!inputShowed}}" bindtap="hideInput">取消</view>
+  </view>
+
+  <scroll-view class="table" wx:if="{{inputVal.length > 0 }}">
+        <view class="tr" wx:for="{{cardInfoList}}" bindtap="toCollectionPage" wx:key="" data-cid="{{item._id}}">
+         <view class="td">      
+           <image src="{{item.headicon}}"></image>
+         </view>
+         <view class="td">
+           <view class="name">
+              <text>{{item.name}}</text>
+            </view>
+             <view class="company">
+              <text>{{item.company}}</text>
+            </view>
+          </view>
+          <!-- <view class="td">
+           <view>
+              <text>{{item.company}}</text>
+            </view>
+          </view> -->
+      </view>
+  </scroll-view>

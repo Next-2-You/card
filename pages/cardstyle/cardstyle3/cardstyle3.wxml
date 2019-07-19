@@ -1,0 +1,30 @@
+<!--pages/cardstyle/cardstyle3/cardstyle3.wxml-->
+<view class='card3' style='background-image: url("https://6465-dev-7f01e-1259628828.tcb.qcloud.la/bj3.png")'>
+<view class='label' wx:if="{{cardInfo.cardType==3&&isChoiceStylePage}}">
+      <view class='text'>当前样式</view>
+    </view>
+  <view class='ct-head'>
+    <text class='ct-text1'>{{cardInfo.name}}</text>
+    <text class='ct-text2'>{{cardInfo.jobInfo}}</text>
+    <!-- <image src="{{cardInfo.headicon}}"></image> -->
+    <!-- <image src='cloud://dev-7f01e.6465-dev-7f01e-1259628828/f6b1f5ab-9f0f-47c1-94e5-6c41edfa4357.png'></image> -->
+    <image src='{{headicon}}' bindtap="uploadHeadicon"></image>
+  </view>
+
+  <view class='info'>
+    <view>
+      <image src='/images/cardstyle/a.png'></image>
+      <text>{{cardInfo.address}}</text> </view>
+    <view>
+      <image src='/images/cardstyle/b.png'></image>
+      <text>{{cardInfo.mobilephone}}</text> </view>
+    <view>
+      <image src='/images/cardstyle/c.png'></image>
+      <text>{{cardInfo.email}}</text> </view>
+    <view>
+      <image src='/images/cardstyle/d.png'></image>
+      <text>{{cardInfo.url}}</text> </view>
+
+  </view>
+
+</view>

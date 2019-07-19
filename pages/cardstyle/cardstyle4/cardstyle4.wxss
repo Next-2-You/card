@@ -1,0 +1,138 @@
+/* pages/cardstyle/cardstyle4/cardstyle4.wxss */
+.card4{
+  height: 415rpx;
+  width: 712rpx;
+  margin-left: 16rpx;
+  color: #A8A8A8;
+  background: no-repeat;
+  background-size: cover;
+}
+
+.card4 .top{
+  height: 199rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.card4 .top .top-t{
+  display: flex;
+  flex-direction: row;
+}
+
+.card4 .top .top-t text{
+  margin-left: 50rpx;
+  margin-top: 63rpx;
+  font-size:24rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+
+  display: inline-block;
+  width: 470rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card4 .top .top-t image{
+  height: 102rpx;
+  width: 102rpx;
+  margin-top: 40rpx;
+  margin-left: 30rpx;
+  border-radius: 50%;
+}
+
+.card4 .top .top-b .text-name{
+  margin: 0 38rpx 0 50rpx;
+  font-size:48rpx;
+  font-family:SourceHanSansCN-Medium;
+  font-weight:500;
+  color:rgba(255,255,255,1);
+  display: inline-block;
+  width: 300rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card4 .top .top-b .text-op{
+  display: inline-block;
+  width: 260rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size:24rpx;
+  font-family:SourceHanSansCN-Normal;
+  font-weight:400;
+}
+
+.card4 .bottom{
+  margin-left: 50rpx;
+  margin-top: 50rpx;
+  display: flex;
+  flex-direction: row;
+}
+
+.card4 .bottom .bt-left{
+  display: flex;
+  flex-direction: column;
+  margin-right: 88rpx;
+}
+
+.card4 .bottom .bt-left view{
+  display: flex;
+  align-items: center;
+  margin-bottom: 22rpx;
+}
+
+.card4 .bottom .bt-right view{
+  display: flex;
+  align-items: center;
+  margin-bottom: 22rpx;
+}
+
+.card4 .bottom image{
+  width: 18rpx;
+  height: 18rpx;
+ 
+}
+
+.card4 .bottom text{
+  margin-left: 10rpx;
+  display: inline-block;
+  width: 230rpx;
+   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size:20rpx;
+  font-family:SourceHanSansCN-Normal;
+  font-weight:400;
+}
+
+/* 小标签 */
+
+.label{
+  height: 108rpx;
+  width: 108rpx;
+  position: absolute;
+  
+   margin-left: 16rpx;
+   margin-top: 20rpx;
+   overflow: hidden;
+}
+
+.label .text{
+  height: 28rpx;
+  width: 130rpx;
+  margin-top: 24rpx;
+  margin-left: -27rpx;
+  background-color: black;
+  text-align: center;
+  font-size:22rpx;
+  font-family:SourceHanSansCN-Regular;
+  font-weight:400;
+  color:rgba(231,205,154,1);
+  line-height:26rpx;
+  transform: rotate(-45deg);
+  /* -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg); */
+}

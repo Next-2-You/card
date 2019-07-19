@@ -1,0 +1,123 @@
+/* pages/sharecard/shardcard.wxss */
+.item{
+  height: 100%;
+  width: 750rpx;
+  /* border: 1px solid black; */
+}
+
+.card{
+  border: 1px solid black;
+  height: 400rpx;
+  width: 700rpx;
+  margin-top: 43rpx;
+  margin-left: 25rpx;
+}
+
+.function{
+  height: 100rpx;
+  width: 750rpx;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: row;
+  margin-top: 32rpx;
+}
+
+.function .bt image{
+  display: block;
+  height: 44rpx;
+  width: 44rpx;
+  margin: 0 auto;
+}
+
+.function .bt::after{
+  border: 0px;
+}
+
+
+.function .bt {
+  height: 100rpx;
+  width: 100rpx;
+  position:relative;
+  margin: 0 auto;
+  padding-left:0;
+  padding-right:0;
+  box-sizing:border-box;
+  font-size:24rpx;
+  text-align:center;
+  text-decoration:none;
+  line-height:2.55555556;
+  border-radius:5px;
+  -webkit-tap-highlight-color:transparent;
+  overflow:hidden;
+  color:#333333;
+  background-color:#fff;
+  font-family: SourceHanSansCN-Regular;
+  display: flex;
+  flex-direction: column;
+}
+
+.txt{
+  height:99rpx; 
+  width: 750rpx; 
+  background-color: #F9F9F9;                
+}
+
+.txt text{
+  display: inline-block;
+  padding-top:33rpx; 
+  margin-left: 36rpx;
+  font-size: 30rpx;
+  color: #666666;
+  font-family: SourceHanSansCN-Bold;
+  font-weight: bold; 
+}
+
+
+.information view{
+height: 120rpx;
+width: 692rpx;
+/* border: 1px solid black; */
+border-bottom: 1px solid rgba(238, 238, 238, 1);
+margin: auto;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.information text{
+margin-left: 36rpx;
+font-size: 28rpx;
+line-height: 40rpx;
+font-family: SourceHanSansCN-Regular;
+color: #333333;
+font-weight: Regular;
+}
+
+.information .text1{
+font-size:28rpx;
+font-family:SourceHanSansCN-Regular;
+font-weight:400;
+color:rgba(102,102,102,1);
+line-height:37rpx;
+}
+
+
+/* .information text {
+  margin-left: 40rpx;
+  margin-top: 40rpx;
+  margin-bottom: 40rpx;
+  padding-left: 20rpx;
+  vertical-align: middle;
+  width: 470rpx;
+  cursor:auto;
+  display:inline-block;
+  height:1.4rem;
+  text-overflow:clip;
+  overflow:hidden;
+  white-space:nowrap;
+  font-family:SourceHanSansCN-Regular;
+  min-height:1.4rem;
+  color: #666666;
+  font-size: 28rpx;
+  border: 1px solid black;
+} */

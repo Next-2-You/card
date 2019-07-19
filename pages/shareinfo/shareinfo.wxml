@@ -1,0 +1,57 @@
+<!--pages/sharecard/shardcard.wxml-->
+<view class='item'>
+    <view wx:if="{{cardInfo.cardType==1}}">
+      <card1 cardInfo="{{cardInfo}}" headicon="{{cardInfo.headicon}}"></card1>
+    </view>
+    <view wx:else>
+      <card2 cardInfo="{{cardInfo}}" headicon="{{cardInfo.headicon}}"></card2>
+    </view>
+  <view class='function'>
+    <button class='bt' data-oid="{{cardInfo._openid}}" bindtap="chooseCollectionType">
+      <image src='/images/shareinfo/redsc.png' wx:if="{{flag}}"></image>
+      <image src='/images/shareinfo/sc.png' wx:else></image>
+      收藏名片
+    </button>
+    <button class='bt' data-oid="{{openid}}" bindtap="toMyCard">
+      <image src='/images/shareinfo/mp.png'></image>
+      我的名片
+    </button>
+    <button class='bt' open-type="share">
+      <image src='/images/shareinfo/fx.png'></image>
+      分享名片
+    </button>
+  </view>
+  <view class='txt'>
+    <text>个人信息</text>
+  </view>
+
+  <view class='information'>
+
+    <form>
+      <view>
+        <text decode="{{true}}">姓&emsp;&emsp;名</text>
+        <text class="text1">{{cardInfo.name}}</text>
+      </view>
+      <view>
+        <text decode="{{true}}">手&emsp;&emsp;机</text>
+        <text class="text1">{{cardInfo.mobilephone}}</text>
+      </view>
+      <view>
+        <text decode="{{true}}">职&emsp;&emsp;位</text>
+        <text class="text1">{{cardInfo.jobInfo}}</text>
+      </view>
+      <view>
+        <text>单位名称</text>
+        <text class="text1">{{cardInfo.company}}</text>
+      </view>
+      <view>
+        <text>办公地点</text>
+        <text class="text1">{{cardInfo.address}}</text>
+      </view>
+
+    </form>
+  </view>
+
+
+
+</view>

@@ -1,0 +1,125 @@
+/* pages/cardstyle/cardstyle5/cardstyle5.wxss */
+
+.card5 {
+  height: 415rpx;
+  width: 712rpx;
+  margin-left: 16rpx;
+  color: #a8a8a8;
+  display: flex;
+  flex-direction: row;
+  background: no-repeat;
+  background-size: cover;
+}
+
+.card5 .left {
+  display: flex;
+  flex-direction: column;
+}
+
+.card5 .left image {
+  width: 102rpx;
+  height: 102rpx;
+  border-radius: 50%;
+  margin: 77rpx 0 71rpx 62rpx;
+}
+
+.card5 .left .text-name {
+  text-align: center;
+  margin-left: 27rpx;
+  font-size: 38rpx;
+  font-family: SourceHanSansCN-Medium;
+  font-weight: 500;
+  color: rgba(248, 220, 74, 1);
+  display: inline-block;
+  width: 200rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card5 .left .text-op {
+  text-align: center;
+  margin-left: 27rpx;
+  margin-top: 15rpx;
+  font-size: 20rpx;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 1);
+  display: inline-block;
+  width: 200rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card5 .right {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50rpx;
+}
+
+.card5 .right image {
+  height: 18rpx;
+  width: 18rpx;
+}
+
+.card5 .right text {
+  font-size: 20rpx;
+  font-family: SourceHanSansCN-Normal;
+  font-weight: 400;
+  color: rgba(101, 93, 27, 1);
+  display: inline-block;
+  width: 350rpx;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card5 .right .text1 {
+  width: 380rpx;
+  margin-top: 97rpx;
+  font-size: 30rpx;
+  font-family: SourceHanSansCN-Bold;
+  font-weight: bold;
+  color: rgba(49, 50, 34, 1);
+}
+
+.card5 .right .info {
+  margin-top: 98rpx;
+}
+
+.card5 .right .info view {
+  display: flex;
+  align-items: center;
+}
+
+.card5 .right .info text {
+  margin-left: 10rpx;
+}
+
+/* 小标签 */
+
+.label {
+  height: 108rpx;
+  width: 108rpx;
+  position: absolute;
+  margin-left: 16rpx;
+  margin-top: 20rpx;
+  overflow: hidden;
+}
+
+.label .text {
+  height: 28rpx;
+  width: 130rpx;
+  margin-top: 24rpx;
+  margin-left: -27rpx;
+  background-color: black;
+  text-align: center;
+  font-size: 22rpx;
+  font-family: SourceHanSansCN-Regular;
+  font-weight: 400;
+  color: rgba(231, 205, 154, 1);
+  line-height: 26rpx;
+  transform: rotate(-45deg);
+  
+}
