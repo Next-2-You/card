@@ -16,7 +16,7 @@
 
 
 ##### 运行效果
-<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/1.jpg" width=400px/>
+<img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/1.jpg" align=center width=400px/>
 <img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/2.jpg" style='width:400px;' />
 <img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/3.jpg" style='align:center;width:400px;' />
 <img src="https://github.com/Next-2-You/ImageRepository/blob/master/card/4.jpg" style='align:center;width:400px;' />
